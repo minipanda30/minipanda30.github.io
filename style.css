@@ -64,7 +64,7 @@ height: 100%;
 }
 
 #parallaxabout{
-	height: 100vh;
+	height: 100%;
 	color: white;
 }
 
@@ -215,7 +215,7 @@ height: 900px;
 		z-index: -1;
 }
 
-.carousel-container{width: 100%;}
+.carousel-container{width: 100%; margin-top: 7%;}
 
 .carousel-inner .carousel-item img { height:570px} 
 
@@ -408,6 +408,9 @@ font-family: Calibri;
 color: black;
 text-align: justify;
 }
+
+
+
 .project-list{
 
 	list-style: none;
