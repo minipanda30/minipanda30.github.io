@@ -1,0 +1,880 @@
+body{
+	width: 100%;
+}
+
+@font-face {
+    font-family: league-spartan;
+    src: url("fonts/LeagueSpartan-Bold.otf") format("opentype");
+}
+
+
+
+
+.navbar-brand{display: none;}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{color: #ffff66;}
+.navbar{background-color: transparent;}
+.navbar-dark .navbar-nav .nav-link{color:white; font-weight: bold; font-size: 20px; height: 45px;}
+
+.navbar-dark .navbar-brand{color: black;}
+.navbar-nav{
+	margin-left: 50%;
+
+}
+
+img {
+    pointer-events: none !important;
+}
+
+canvas{
+	pointer-events: none !important;
+}
+
+.logonav{
+
+	height: 90px;
+	position: relative;
+	top: -20px;
+}
+
+.parallaximg{
+
+	
+height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallaxhome { 
+    /* The image used */
+
+   
+
+    /* Set a specific height */
+   height: 100vh; 
+
+    background-image: url('images/bground.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    /* Create the parallax scrolling effect */
+    
+}
+
+#parallaxabout{
+	height: 100vh;
+	color: white;
+}
+
+#parallaxskills { 
+    /* The image used */
+
+height: 900px;
+    background-image: url("images/3.jpg");
+
+
+    /* Set a specific height */
+    
+
+}
+
+#parallaxprojectsgallery { 
+    /* The image used */
+    background-image: url("images/2.jpg");
+
+    /* Set a specific height */
+    
+
+    /* Create the parallax scrolling effect */
+   
+  
+}
+
+.about-title{
+
+	font-size: 30px;
+}
+
+.about-content-right{
+
+	padding-left: 30px; 
+}
+.about-content-left{
+
+	padding-right: 30px; 
+}
+
+
+.fa-bubble-left {
+ 
+  z-index: 0;
+  border-radius: 100%;
+  background-color: #ffff66;
+
+  padding: 8px;
+  position: absolute; 
+  top: 20%;
+  left: 97%
+
+}
+
+.fa-bubble-right {
+ 
+  z-index: 0;
+  border-radius: 100%;
+  background-color: #ffff66;
+  box-shadow: 0px 0px 2px #888;
+  padding: 8px;
+  position: absolute; 
+  top: 20%;
+  right: 97%
+
+}
+
+.line-right{
+	border-right: 2px solid
+}
+
+
+
+
+.name-control{
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image-header{
+
+	position: absolute;
+	top: 0;
+	width: 35%;
+	height: 100vh;
+	background-image: url('images/picme2.png');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   z-index:0;
+	
+	
+}
+
+.overlay{
+
+	position: relative;
+	top:0;
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+   height: 100%;
+   
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+   
+}
+.text-container{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	text-align: center;
+	white-space: normal;
+	
+}
+
+
+.head-text{
+	color: #ffff99; 
+	font-family: league-spartan;
+	text-align: center;
+	font-size: 40px;
+	z-index: -1;
+}
+.head-text2{
+	color: white; 
+	text-align: center;
+	font-family: league-spartan;
+	font-size: 20px;
+		z-index: -1;
+}
+
+.carousel-container{width: 100%;}
+
+.carousel-inner .carousel-item img { height:570px} 
+
+
+.carouselMod .carousel-control-prev-icon{
+	border-radius: 100%;
+	opacity: 1;background-color: black;}
+
+.carouselMod .carousel-control-next-icon{
+	border-radius: 100%;
+	opacity: 1;background-color: black;
+}
+
+.carouselMod .carousel-inner .carousel-item img { max-height:100vh; height: 100%; max-width: 900px; width: 100%;}
+
+.specialFadeInDown {
+  -webkit-animation-name: specialFadeInDown;
+  animation-name: specialFadeInDown;
+}
+
+
+
+.carousel-extra{
+	text-indent: 40px;
+	text-align: justify;
+	color: white;
+	padding: 50px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-caption-top{
+
+	    position: absolute;
+    right: 15%;
+    top: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption-middle{
+
+	    position: absolute;
+    right: 15%;
+    top: 40%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-color: #fff;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+
+.carousel-indicators{
+	z-index: 1
+}
+
+.modal-backdrop {
+  z-index: 0;
+}
+
+
+
+
+.fullbox{
+
+
+	
+	padding-top: 100px;
+	padding-bottom: 50px;
+    background-color: #76bf5f;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+	
+}
+
+footer{
+	color: white;
+	
+	background-color: #76bf5f;
+}
+
+footer a{
+	color: white;
+}
+
+footer li{
+	margin-bottom: 5px;
+	}
+
+footer a:hover{
+	color: rgba(0,0,0,0.5);
+
+}
+
+.soc-icon{
+	margin-right: 15px;
+	font-size: 25px;
+}
+
+
+
+/* Chart */
+
+.chartphp{
+	height: 200px;
+}
+.percent {
+	position: absolute;
+	
+	left: 40%;
+	line-height: 200px;
+    z-index: -1;
+    font-size: 30px
+}
+.percent:after {
+    content: '%';
+    margin-left: 0.1em;
+    font-size: .8em
+}
+
+/* Chart end */
+
+.skill-categ{
+
+	font-family: league-spartan;
+	font-size: 20px;
+	color: white;
+}
+
+.project-title{
+
+	font-family: league-spartan;
+	font-size: 20px;
+	color: white;
+}
+
+.skill-name{
+
+	
+	
+	color: white;
+}
+.skill-list{
+	color: white;
+	
+	font-size: 17px;
+	text-align: center;
+	padding: 0 30px 50px 30px;
+	width: 100%;
+}
+.skill-bullet{
+	list-style-type: none;
+}
+
+.project-main{
+color: white;
+}
+.project-begin{
+	text-indent: 20px;
+font-size: 15px;
+font-family: Calibri;
+color: black;
+text-align: justify;
+}
+.project-list{
+
+	list-style: none;
+	font-family: Calibri;
+	color: black;
+	padding-left: 10px;
+
+}
+
+.project-list li{
+	
+	list-style-position: inside;
+    padding: 0 0 0 20px;
+    text-indent: -1em;
+
+
+}
+
+.project-list li:before{
+	content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  
+  margin-left: -1.3em; /* same as padding-left set on li */
+   /* same as padding-left set on li */
+ color: white;
+  border: 1px solid transparent;
+  border-radius: 100%;
+  background-color: #76bf5f;
+  padding: 1px;
+}
+
+
+
+
+
+
+
+.card-shape{
+	
+	
+	height: 500px;
+	width: 100%; 
+	 box-shadow: 0 10px 20px rgba(0,0,0,.1), 0 10px 20px rgba(0,0,0,.05);
+}
+.card-body span{
+font-size: 17px;
+font-family: cursive;
+}
+
+.card-header{
+	text-align: center;
+	font-family: cursive;
+	font-size: 23px;
+}
+
+
+
+
+
+
+.navbar-collapse {
+	padding: 10px;
+	text-align: center;
+	z-index: 1;
+}
+
+.project-shape{
+height: 350px;
+width: 80%;
+}
+
+
+
+/* Project CSS */
+
+
+.gallery-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    overflow:hidden;
+	
+}
+
+.gallery-box .gallery-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: rgba(44,44,44,.8);
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.gallery-box .gallery-box-caption .gallery-box-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.gallery-box:hover .gallery-box-caption {
+    opacity: 1;
+}
+
+.gallery-box:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gallery-box img {
+	height: 300px;
+	width: 100%;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+.center1{
+	 font-family: Cooper Black;
+}
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+ 
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: inline-block;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 900px;
+}
+
+/* Caption of Modal Image */
+/* Add Animation */
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:opacity(0)} 
+    to {-webkit-transform:opacity(1)}
+}
+
+@keyframes zoom {
+    from {transform:opacity(0)} 
+    to {transform:opacity(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 60px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/*  Project CSS end  */
+
+
+.navbar-dark .navbar-toggler-icon{
+
+	background-image: url('images/logo.png')
+}
+
+
+
+.boxlist{
+	margin-top: 200px;
+}
+
+
+.spacer{
+	margin-top: 20px;
+}
+
+@keyframes specialFadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 0.7;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+body{
+	overflow-x: hidden;
+}
+#parallaxskills { 
+    /* The image used */
+
+height: 100%;
+
+width: 100%;
+
+
+    /* Set a specific height */
+    
+
+}
+#parallaxabout{
+	height: 100%;
+	width: 100%;
+	color: white;
+}
+.text-container{
+	
+	position: relative;
+	left: 1%;
+	top: 10%;
+	z-index: 3;
+}
+
+.image-cont{
+	position: absolute;
+	width: 100%;
+	
+	
+}
+.image-header{
+	width: 100%;
+	height: 100%;
+	background-image: url('images/picme2.png');
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	
+}
+
+
+
+.fullbox{
+
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+   
+
+	
+}
+
+
+
+.logonavlink{
+	display:none;
+}
+.fa-bubble-left {
+ 
+  
+  position: relative; 
+  top: 20%;
+  left: 1%
+
+}
+
+.fa-bubble-right {
+ 
+  
+  position: relative; 
+  top: 20%;
+  right: 1%
+
+}
+
+.line-right{
+	border-right: none;
+}
+
+.about-content-right{
+
+	padding-left: 0; padding-top:20px;
+}
+.about-content-left{
+
+	padding-right: 0; padding-top:20px;
+}
+
+.navbar-nav{
+	margin-left: 0
+}
+
+.prog-pos{
+	position: relative;
+	
+	z-index: 100;
+	
+	
+}
+
+.skill-scroll{
+	height: 100vh;
+	overflow-y: scroll;
+	width: 85%;
+
+}
+.scroll-notif{
+	text-align: center;
+	color:white;
+}
+.scroll-notif::before{
+	content: 'scroll down to see more';
+}
+
+
+
+.parallaximg{
+	height: 100%;
+
+}
+.overlay{
+	height: 100%;
+	padding-bottom: 30px;
+	
+}
+
+.skill-scroll::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+.skill-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.skill-scroll::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.carousel-inner .carousel-item img { height:250px} 
+
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+.skill-scroll{
+		height: 100vh;
+	overflow-y: scroll;
+	width: 85%;
+
+}
+#parallaxskills { 
+    /* The image used */
+
+height: 100%;
+
+
+    /* Set a specific height */
+    
+
+}
+
+#parallaxabout{
+	height: 100%;
+	color: white;
+}
+.scroll-notif{
+	text-align: center;
+	color:white;
+}
+.scroll-notif::before{
+	content: 'scroll down to see more';
+}
+
+
+.parallaximg{
+	height: 100%;
+
+}
+.overlay{
+	height: 100%;
+	padding-bottom: 30px;
+	
+}
+
+.skill-scroll::-webkit-scrollbar {
+    width: 2px;
+}
+ 
+.skill-scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.skill-scroll::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+.fa-bubble-left {
+ 
+   position: relative; 
+  top: 20%;
+  left: 54%
+
+}
+
+.fa-bubble-right {
+ 
+   position: relative; 
+  top: 20%;
+  right: 54%
+
+}
+
+
+}
+
