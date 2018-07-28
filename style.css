@@ -6,17 +6,20 @@
 
 
 
-
+.navbar{background-color: transparent;}
 .navbar-brand{display: none;}
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link{color: #ffff66;}
-.navbar{background-color: transparent;}
+
 .navbar-dark .navbar-nav .nav-link{color:white; font-weight: bold; font-size: 20px; height: 45px;}
 
 .navbar-dark .navbar-brand{color: black;}
 .navbar-nav{
 	margin-left: 50%;
 
+
 }
+
+
 
 img {
     pointer-events: none !important;
@@ -28,9 +31,9 @@ canvas{
 
 .logonav{
 
-	height: 90px;
+	height: 60px;
 	position: relative;
-	top: -20px;
+	top: -10px;
 }
 
 .parallaximg{
@@ -80,6 +83,19 @@ height: 900px;
 
 }
 
+
+#parallaxskills { 
+    /* The image used */
+
+height: 900px;
+    background-image: url("images/3.jpg");
+
+
+    /* Set a specific height */
+    
+
+}
+
 #parallaxprojectsgallery { 
     /* The image used */
     background-image: url("images/2.jpg");
@@ -105,6 +121,197 @@ height: 900px;
 
 	padding-right: 30px; 
 }
+
+
+/*  TIMELINE  */
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+    .timeline:before {
+        top: 0;
+        bottom: 0;
+        position: absolute;
+        content: " ";
+        width: 3px;
+        background-color: #eeeeee;
+        left: 50%;
+        margin-left: -1.5px;
+    }
+
+    .timeline > li {
+        margin-bottom: 20px;
+        position: relative;
+        color: black;
+    }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li:before,
+        .timeline > li:after {
+            content: " ";
+            display: table;
+        }
+
+        .timeline > li:after {
+            clear: both;
+        }
+
+        .timeline > li > .timeline-panel {
+            width: 46%;
+            float: left;
+            border: 1px solid #d4d4d4;
+            border-radius: 2px;
+            padding: 20px;
+            position: relative;
+            -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+            box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        }
+
+            .timeline > li > .timeline-panel:before {
+                position: absolute;
+                top: 26px;
+                right: -15px;
+                display: inline-block;
+                border-top: 15px solid transparent;
+                border-left: 15px solid #ccc;
+                border-right: 0 solid #ccc;
+                border-bottom: 15px solid transparent;
+                content: " ";
+            }
+
+            .timeline > li > .timeline-panel:after {
+                position: absolute;
+                top: 27px;
+                right: -14px;
+                display: inline-block;
+                border-top: 14px solid transparent;
+                border-left: 14px solid #fff;
+                border-right: 0 solid #fff;
+                border-bottom: 14px solid transparent;
+                content: " ";
+            }
+
+        .timeline > li > .timeline-badge {
+            color: #fff;
+            width: 50px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 1.4em;
+            text-align: center;
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            margin-left: -25px;
+            background-color: #999999;
+            z-index: 100;
+            border-top-right-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+        }
+
+        .timeline > li.timeline-inverted > .timeline-panel {
+            float: right;
+        }
+
+            .timeline > li.timeline-inverted > .timeline-panel:before {
+                border-left-width: 0;
+                border-right-width: 15px;
+                left: -15px;
+                right: auto;
+            }
+
+            .timeline > li.timeline-inverted > .timeline-panel:after {
+                border-left-width: 0;
+                border-right-width: 14px;
+                left: -14px;
+                right: auto;
+            }
+
+.timeline-badge.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+    background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+    background-color: #5bc0de !important;
+}
+
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+    .timeline-body > p + p {
+        margin-top: 5px;
+    }
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+
+        ul.timeline > li > .timeline-panel:before {
+            border-left-width: 0;
+            border-right-width: 15px;
+            left: -15px;
+            right: auto;
+        }
+
+        ul.timeline > li > .timeline-panel:after {
+            border-left-width: 0;
+            border-right-width: 14px;
+            left: -14px;
+            right: auto;
+        }
+}
+
+
+/* TIMELINE END */
 
 
 .fa-bubble-left {
@@ -143,6 +350,7 @@ height: 900px;
 .name-control{
 	text-align: center;
 	font-size: 30px;
+	color: black;
 }
 
 
@@ -215,7 +423,7 @@ height: 900px;
 		z-index: -1;
 }
 
-.carousel-container{width: 100%; margin-top: 7%;}
+.carousel-container{width: 100%; box-shadow: 0 5px 8px rgba(0, 0, 0, 0.175);}
 
 .carousel-inner .carousel-item img { height:570px} 
 
@@ -307,16 +515,21 @@ height: 900px;
 
 
 	
-	padding-top: 100px;
-	padding-bottom: 50px;
-    background-color: #76bf5f;
+	padding: 80px 20px 50px 20px;
+    background-color: #fff;
     background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 
+
 	
+}
+
+
+.text-indent{
+	text-indent: 25px;
 }
 
 footer{
@@ -377,6 +590,13 @@ footer a:hover{
 
 	font-family: league-spartan;
 	font-size: 20px;
+	color: black;
+}
+
+.project-galtitle{
+
+	font-family: league-spartan;
+	font-size: 20px;
 	color: white;
 }
 
@@ -405,7 +625,7 @@ color: white;
 	text-indent: 20px;
 font-size: 15px;
 font-family: Calibri;
-color: black;
+color: white;
 text-align: justify;
 }
 
@@ -424,6 +644,7 @@ text-align: justify;
 	
 	list-style-position: inside;
     padding: 0 0 0 20px;
+    font-size: 15px;
     text-indent: -1em;
 
 
@@ -442,19 +663,23 @@ text-align: justify;
   padding: 1px;
 }
 
-
-
-
-
-
-
-.card-shape{
-	
-	
-	height: 500px;
-	width: 100%; 
-	 box-shadow: 0 10px 20px rgba(0,0,0,.1), 0 10px 20px rgba(0,0,0,.05);
+.card-pos{
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	position: relative;
+	bottom: 50px;
 }
+
+
+
+
+
+
+
+.card-body{
+
+	padding: 20px;
+}
+
 .card-body span{
 font-size: 17px;
 font-family: cursive;
@@ -464,6 +689,8 @@ font-family: cursive;
 	text-align: center;
 	font-family: cursive;
 	font-size: 23px;
+	background-color:#76bf5f;
+
 }
 
 
@@ -472,7 +699,7 @@ font-family: cursive;
 
 
 .navbar-collapse {
-	padding: 10px;
+	
 	text-align: center;
 	z-index: 1;
 }
@@ -510,6 +737,8 @@ width: 80%;
     -moz-transition: all .35s;
     transition: all .35s;
 }
+
+
 
 .gallery-box .gallery-box-caption .gallery-box-content {
     position: absolute;
@@ -660,9 +889,7 @@ width: 80%;
 
 @media only screen and (max-width: 768px){
 
-body{
-	overflow-x: hidden;
-}
+
 #parallaxskills { 
     /* The image used */
 
@@ -818,10 +1045,23 @@ width: 100%;
 
 .carousel-inner .carousel-item img { height:250px} 
 
+.card-pos{
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	position: relative;
+	bottom: 0;
+}
+
 }
 
 
 @media only screen and (max-width: 992px) and (min-width: 768px){
+
+	.card-pos{
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+	position: relative;
+	bottom: 0;
+}
+
 .skill-scroll{
 		height: 100vh;
 	overflow-y: scroll;
