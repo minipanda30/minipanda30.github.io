@@ -87,7 +87,7 @@ $(window).scroll(function(){
                 localStorage.setItem('idsc', id);
 
                     
-      if(id != "parallaxhome" && isActive == true && $(window).width() > 768){
+      if(id != "parallaxhome" && isActive == true && $(window).width() >= 751){
         isActive = false;
         $('.chartphp').easyPieChart({
         easing: 'easeOutElastic',
@@ -101,11 +101,11 @@ $(window).scroll(function(){
           lineCap: 'butt',
     });
         
-$(".navbar-nav").stop().animate({marginLeft: "36%"}, { duration: 500, queue: false });
+$(".navbar-nav").stop().animate({marginLeft: "37%"}, { duration: 500, queue: false });
   $(".navbar").stop().animate({backgroundColor: "rgba(0,0,0,0.5)"}, { duration: 200, queue: false });
 
 
-}else if(id != "parallaxhome" && isActive == false && $(window).width() > 768){
+}else if(id != "parallaxhome" && isActive == false && $(window).width() >= 751){
         $('.chartphp').easyPieChart({
         easing: 'easeOutElastic',
           animate: 3000,
@@ -119,7 +119,7 @@ $(".navbar-nav").stop().animate({marginLeft: "36%"}, { duration: 500, queue: fal
     });
   $(".navbar").stop().animate({backgroundColor: "rgba(0,0,0,0.5)"}, { duration: 200, queue: false });
  
-}else if(id == "parallaxhome" && $(window).width() > 768){
+}else if(id == "parallaxhome" && $(window).width() >= 751){
   isActive = true;
    $(".navbar-nav").stop().animate({marginLeft: "50%"}, { duration: 500, queue: false });
   $(".navbar").stop().animate({backgroundColor: "rgba(0,0,0,0)"}, { duration: 200, queue: false });
@@ -149,9 +149,11 @@ return false;
 
 
 $(window).resize(function(){
-    if($(this).width() <= 768 || id != "parallaxhome"){
+    if($(this).width() <= 750 || id != "parallaxhome"){
        $('.navbar').css("background-color", "rgba(0,0,0,0.7)");
+       $(".navbar-nav").stop().animate({marginLeft: "33%"}, { duration: 500, queue: false });
      }else{
+       $(".navbar-nav").stop().animate({marginLeft: "50%"}, { duration: 500, queue: false });
        $('.navbar').css("background-color", "transparent");
      }
 });
