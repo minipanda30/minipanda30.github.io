@@ -151,15 +151,10 @@ return false;
 $(window).resize(function(){
     if($(this).width() <= 750 || id != "parallaxhome"){
        $('.navbar').css("background-color", "rgba(0,0,0,0.7)");
-       $(".navbar-nav").stop().animate({marginLeft: "33%"}, { duration: 500, queue: false });
+       $(".navbar-nav").stop().animate({marginLeft: "37%"}, { duration: 500, queue: false });
      }else{
        $(".navbar-nav").stop().animate({marginLeft: "50%"}, { duration: 500, queue: false });
        $('.navbar').css("background-color", "transparent");
      }
 });
 
-
-/* easy pie */
- 
-
-/* easy pie end*/
