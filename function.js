@@ -3,6 +3,8 @@ var targethashr = "";
 var isActive = true;
 window.onbeforeunload = function(){ window.scrollTo(0,0); }
 $(document).ready(function(){
+
+
 localStorage.removeItem('idsc');
 isActive = true;
 targethashr = "";
@@ -158,3 +160,7 @@ $(".navbar-nav").stop().animate({marginLeft: widthmargin}, { duration: 500, queu
      }
 });
 
+var scrollable = $('.skill-scroll');
+scrollable.on('scroll.wow', function(){
+    scrollable.find('.wow:not(.animated):in-viewport').removeAttr('style').addClass('animated');
+});
