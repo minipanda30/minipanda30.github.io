@@ -7,8 +7,8 @@
     <meta name="author" content="">
     
 
-    <title>Starter Template for Bootstrap</title>
-
+    <title>My Portfolio - Mini Panda</title>
+<link rel="icon" href="images/logo.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
  
     <link href="css/animate.css" rel="stylesheet">
@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <div class="container">
+  
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
       <a class="navbar-brand" href="#">
     <img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
@@ -54,7 +54,7 @@
         
       </div>
     </nav>
-  </div>
+
 
     <div class="container-fluid" style="padding: 0">
 
@@ -67,7 +67,7 @@
 
 Hanz Jericho V. Garabiles
 </div>
-<div style="opacity: 0.7" class="head-text2 wow specialFadeInDown" data-wow-delay="0.7s"><i>~Mini Panda</i></div>
+<div style="opacity: 0.7" class="head-text2 wow specialFadeInDown" data-wow-delay="0.7s"><i>IT Fresh Graduate</i></div>
 </div></div>
       
       
@@ -77,7 +77,6 @@ Hanz Jericho V. Garabiles
     <video autoplay loop id="myVideo">
   <source src="videos/video.mp4" type="video/mp4">
 </video>
-
 -->
 
 
@@ -86,57 +85,73 @@ Hanz Jericho V. Garabiles
 <div class="container-fluid" >
 
 
-<div class="name-control"><i>Who is Hanz Jericho anyway???</i></div>
+<div class="name-control wow slideInUp"><i>Who is Hanz Jericho anyway???</i></div>
 <br>
     
-<div class="row" >
-  
-  <div class="col-lg-6 col-md-6 line-right"  align="center">
-<br>
-    <i class="fa fa-graduation-cap fa-bubble-left" style="font-size: 25px;"></i><div><div class="wow fadeInRight"><span class="about-title">Formally Introducing</span></div></div>
-    
-  </div>
-  <div class="col-lg-6 col-md-6" align="center" style="padding-bottom: 30px">
-   <div class="about-content-right wow fadeInLeft">
- Hanz Jericho Valdez Garabiles is a fresh graduate of course Information Technology at Saint Louis College - City of San Fernando, La Union, Philippines. He was naturally passionate on every works handed to him especially the IT related ones. With the skills he gained over the decade, he is now actively searching for a profession that will help him gain the experience essential to his growth as a novice. 
-  </div>
-  </div>
-
-
-</div>
-<div class="row">
-  
-  <div class="col-lg-6 col-md-6 order-lg-1 order-md-1 order-sm-2 order-2 line-right" align="center" style="padding-bottom: 30px">
-     <div><div class="about-content-left wow fadeInRight">
-  He's not the one-shot success kind of a student; he chose a course recklessly, experienced adversity, exhausted, failed, and eventually gave up. Reality hits him that his first course wasn't what his inner self would be glad to be in. Until he end up with Information Technology and reach the end of the road with head held high.
-  </div>
- 
-</div>
-
-  </div>
-  <div class="col-lg-6 col-md-6 order-lg-2 oder-md-2 order-sm-1 order-1"  align="center" >
-   <br>
-   <i class="fa fa-desktop fa-bubble-right " style="font-size: 25px;"></i>
-<div class="wow fadeInLeft"><span class="about-title">Destined to the Tech World</span></div>
-  </div>
-
-</div>
-
-<div class="row" >
-  
-  <div class="col-lg-6 col-md-6 line-right"  align="center">
-<br>
-    <i class="fa fa-code fa-bubble-left" style="font-size: 25px;"></i><div><div class="wow fadeInRight"><span class="about-title">Did you say Programming?</span></div></div>
-    
-  </div>
-  <div class="col-lg-6 col-md-6" align="center" style="padding-bottom: 30px">
-   <div class="about-content-right wow fadeInLeft">
-   Don't let him hear you say anything about programming or he will not let you end the day mumbling all his experience about it. It was his addiction, his hobby, his favorite. Though he is not that prodigious in it, he held strong enthusiasm towards programming. And with that, he was exposed to the vast world of multimedia as well and honed both skills together.
-  </div>
-  </div>
-
-
-</div>
+<ul class="timeline">
+        <li>
+          <div class="timeline-badge info wow bounceIn"><i class="fa fa-user"></i></div>
+          <div class="timeline-panel wow fadeInRight hvr-fade">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Basic Information</h4>
+              <p><small class="text-muted"><i class="fa fa-clock-o"></i> Born on June 30, 1997</small></p>
+            </div>
+            <div class="timeline-body">
+              <p class="text-indent">Hanz Jericho Valdez Garabiles is currently residing in Candon City, Ilocos Sur, Philippines. At his current age of 21, he graduated in Saint Louis College located at City of San Fernando La Union with the course Information Technology.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning wow bounceIn"><i class="fa fa-tasks"></i></div>
+          <div class="timeline-panel wow fadeInLeft hvr-fade">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Career Objective</h4>
+            </div>
+            <div class="timeline-body">
+              <ul>
+                <li>To work on any Information Technology company with professional but comfortable atmosphere for a fresh graduate.</li>
+                <li>To gain experience that would bring significant growth to my chosen career.</li>
+                <li>To showcase my skills intellectually that would help improve the quality of service of the company that would accept me.</li>
+                <li>To guide and be guided by the innovation of programming industry.</li>
+                </ul>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger wow bounceIn"><i class="fa fa-briefcase"></i></div>
+          <div class="timeline-panel wow fadeInRight hvr-fade">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Work Ethics</h4>
+            </div>
+            <div class="timeline-body">
+              <p class="text-indent">He is highly versatile with IT-related works but shows much enthusiasm on programming. He shows tough discipline when his on a team but never closed ear when on the receiving side. Despite gaining advance knowledge, he never hits the ceiling on learning new things  and is always sharing those ideas to everyone. A team player by nature but also has a league of his own. He accomplish things on time, or if not, will do the best he can to achieve it fast.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+           <div class="timeline-badge success wow bounceIn"><i class="fa fa-building"></i></div>
+          <div class="timeline-panel wow fadeInLeft hvr-fade">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Preffered Work</h4>
+            </div>
+           <ul>
+                <li>Programmer</li>
+                <li>Web Designer</li>
+                <li>Web Developer</li>
+                <li>Back-end Developer</li>
+                <li>Non-voice Tech Support</li>
+                <li>Software Quality Assuarance</li>
+                <li>Network Administrator</li>
+                <li>Data Analyst</li>
+                <li>IT Specialist</li>
+                <li>IT Freelancer</li>
+                </ul>
+          </div>
+        </li>
+        
+       
+      
+    </ul>
   <div class="spacer"></div>
      
    
@@ -148,68 +163,62 @@ Hanz Jericho V. Garabiles
     <div id="parallaxskills" class="parallaximg">
       <div class="overlay">
         <div class="scroll-notif"></div>
-<div class="container-fluid skill-scroll" style="padding-top: 100px;padding-bottom: 100px">
+<div class="container-fluid skill-scroll" style="padding-top: 100px;padding-bottom: 100px; color: white">
      
-      <div class="row" align="center"><div class="col-12"><span class="skill-categ">Web Development Skills</span></div></div>
+      <div class="row" align="center"><div class="col-12"><span class="skill-categ wow fadeInUp">Web Development Skills</span></div></div>
  <br>
  <div class="row">
 
- <div class="col-lg-3 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name">
-     HTML
-</div>
-  <div class="col-12">
+ <div class="col-lg-3 col-12 wow fadeInUp"  data-wow-delay="0.2s" align="center">
+
+     HTML<br>
+
      <span class="chartphp" data-percent="60" >
      <span class="percent" style="color: white" >60</span>
     </span>
-</div>
-</div>
+
 
 
   </div>
 
-  <div class="col-lg-3 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name" >
-     CSS
-</div>
-  <div class="col-12 ">
+  <div class="col-lg-3 col-12 wow fadeInUp"  data-wow-delay="0.2s" align="center">
+
+     CSS<br>
+
      <span class="chartphp" data-percent="75">
      <span class="percent" style="color: white">75</span>
     </span>
-</div>
-</div>
+
 
 
   </div>
 
-  <div class="col-lg-3 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name">
-     Javascript (Jquery, Jquery Mobile, Phonegap)
-</div>
-  <div class="col-12">
+  <div class="col-lg-3 col-12 wow fadeInUp"  data-wow-delay="0.2s" align="center">
+
+ 
+     Javascript (Jquery, Jquery Mobile)<br>
+
+
      <span class="chartphp" data-percent="80">
      <span class="percent" style="color: white">80</span>
     </span>
-</div>
-</div>
+
+
 
 
   </div>
 
-  <div class="col-lg-3 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name">
-     PHP (Core,Laravel,Codeigniter)
-</div>
-  <div class="col-12">
+  <div class="col-lg-3 col-12 wow fadeInUp"  data-wow-delay="0.2s" align="center">
+
+ 
+     PHP (Core,Laravel,Codeigniter)<br>
+
+
      <span class="chartphp" data-percent="90">
      <span class="percent" style="color: white">90</span>
     </span>
-</div>
-</div>
+
+
 
 
   </div>
@@ -219,51 +228,41 @@ Hanz Jericho V. Garabiles
   </div>
 <br>
 <br>
-  <div class="row" align="center"><div class="col-12"><span class="skill-categ">Native Programming Skills</span></div></div>
+  <div class="row wow fadeInUp" align="center"><div class="col-12"><span class="skill-categ">Native Programming Skills</span></div></div>
  <br>
  <div class="row">
 
- <div class="col-lg-4 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name">
-     Visual Basic/VB.Net
-</div>
-  <div class="col-12">
+ <div class="col-lg-4 col-12 wow fadeInUp" data-wow-delay="0.2s" align="center">
+     Visual Basic/VB.Net<br>
+
      <span class="chartphp" data-percent="35">
      <span class="percent" style="color: white">45</span>
     </span>
-</div>
-</div>
 
-
-  </div>
-
-  <div class="col-lg-4 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name" >
-     Java
-</div>
-  <div class="col-12 ">
-     <span class="chartphp" data-percent="10">
-     <span class="percent" style="color: white">10</span>
-    </span>
-</div>
-</div>
 
 
   </div>
 
-  <div class="col-lg-4 col-12">
-<div class="row" align="center">
-   <div class="col-12 skill-name">
-     C#
-</div>
-  <div class="col-12">
+  <div class="col-lg-4 col-12 wow fadeInUp" data-wow-delay="0.2s" align="center">
+
+     Java<br>
+
      <span class="chartphp" data-percent="10">
      <span class="percent" style="color: white">10</span>
     </span>
-</div>
-</div>
+
+
+
+  </div>
+
+  <div class="col-lg-4 col-12 wow fadeInUp" data-wow-delay="0.2s" align="center">
+
+     C#<br>
+
+     <span class="chartphp fadeInUp" data-percent="10">
+     <span class="percent" style="color: white">10</span>
+    </span>
+
 
 
   </div>
@@ -280,7 +279,7 @@ Hanz Jericho V. Garabiles
  <div class="row skill-list">
     
     <div class="col-12">
-     He is also proficient in Microsoft Office works, administration of network, setting up complete desktop, reformatting computer, English literary writing, and playing musical instruments.
+     <div class="wow fadeInUp">He is also proficient in Microsoft Office works, administration of network, setting up complete desktop, reformatting computer, English literary writing, and playing musical instruments.</div>
 
     </div>
   </div>
@@ -298,14 +297,14 @@ Hanz Jericho V. Garabiles
     <div class="fullbox" id="parallaxprojects">
 
 <div class="container-fluid">
- <div class="row" align="center"><div class="col-12"><span class="project-title">Projects Overview</span></div></div>
+ <div class="row" align="center"><div class="col-12"><span class="project-title wow slideInUp">Projects Overview</span></div></div>
  <br>
 <div class="row">
         
-        <div class="col-lg-3 col-md-12">
-          <div class="card">
+        <div class="col-xl-3 col-lg-4 col-md-12"  style="margin: 0">
+          <div class="card card-pos wow fadeInLeft">
           <div class="card-header">
-       <div class="project-begin">In the past years, he was tasked with many programming projects, all for his thesis, competitions, and even for paid freelance jobs. Here are the list of them:</div>
+       <div class="project-begin">In the past years, he was tasked with many programming projects, all for his thesis, competitions, and even for paid freelance jobs. Here are the list of the programs he made together with a few slideshow of his achievements:</div>
      </div>
        <div class="card-body">
        <ul class="project-list">
@@ -324,10 +323,10 @@ Hanz Jericho V. Garabiles
 </div>
         </div>
 
-        <div class="col-lg-9 col-md-12">
+        <div class="col-xl-9 col-lg-8 col-md-12">
 
           
-          <div class="carousel-container">
+          <div class="carousel-container wow fadeInUp">
      <div id="carouselProject" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators carousel-indicators--round">
     <li data-target="#carouselProject" data-slide-to="0" class="active"></li>
@@ -338,36 +337,36 @@ Hanz Jericho V. Garabiles
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active" id="onepic">
-      <img src="images/me/first.jpg" alt="First slide" width="100%"> <div class="animated fadeInUp carousel-caption d-none d-md-block" style="background-color: rgba(0,0,0,0.5)">
+      <img src="images/me/first.jpg" alt="First slide" width="100%"> <div class="animated fadeInUp carousel-caption" style="background-color: rgba(0,0,0,0.5)">
     <h5>Project Award</h5>
-    <p style="font-size: 17px">On February 2018, he, together with other selected few, participated in the popular interschool competition in the city: EGOV and Hackathon Competition. Both were part of the ICT Summit 2018 which also conducted IT related seminars.</p>
+    <p>On February 2018, Hanz, together with other selected few, participated in the popular interschool competition in the city: EGOV and Hackathon Competition. Both were part of the ICT Summit 2018 which also conducted IT related seminars.</p>
   </div>
     </div>
     <div class="carousel-item" id="twopic">
       
       <div class="row">
-      <div class="col-lg-6 col-12"><img src="images/me/hackathon.jpg" alt="Second slide" width="100%"></div><div class="col-lg-6 col-12 carousel-extra" >Six different schools competed in <b>HACKATON</b>: a 1-day development of system which would solve the stated problem with no restriction on what web language or application to be used. The topic given was about traffic congestion solution. Hanz, together with his team, come up with a Traffic Information System made with Laravel (Refer to the Project Gallery). At the end of the alloted time, all participant school shall present and defend their output to the panelists.</div></div>
+      <div class="col-lg-6 col-12 order-1"><img src="images/me/hackathon.jpg" alt="Second slide" width="100%"></div><div class="col-lg-6 col-12 order-2 carousel-extra  animated fadeInRight" >Six different schools competed in <b>HACKATON</b>: a 1-day development of system which would solve the stated problem with no restriction on what web language or application to be used. The topic given was about traffic congestion solution. Hanz, together with his team, come up with a Traffic Information System made with Laravel (Refer to the Project Gallery). At the end of the alloted time, all participant school shall present and defend their output to the panelists.</div></div>
     
     </div>
     <div class="carousel-item" id="threepic">
        <div class="row">
-      <div class="col-lg-6 col-12 carousel-extra" >On the other hand, the <b>EGOV</b> Competition was held the next day. All participants of the said competition should present a system they made to solve a problem proposed by the City Government. The development shall be accomplished from the first month of the semester up to the day of the competition. Hanz and his group were given the issue about job mismatch which then rooted to the creation of e-Skill Registry website (Refer to the Project Gallery). Same with Hackaton, the system shall also be presented adn defended on the day assigned.</div><div class="col-lg-6 col-12"><img src="images/me/egov.jpg" alt="Second slide" width="100%"></div></div>
+      <div class="col-lg-6 col-12 order-lg-1 order-2 carousel-extra  animated fadeInLeft" >On the other hand, the <b>EGOV</b> Competition was held the next day. All participants of the said competition should present a system they made to solve a problem proposed by the City Government. The development shall be accomplished from the first month of the semester up to the day of the competition. Hanz and his group were given the issue about job mismatch which then rooted to the creation of e-Skill Registry website (Refer to the Project Gallery). Same with Hackaton, the system shall also be presented adn defended on the day assigned.</div><div class="col-lg-6 col-12 order-lg-2 order-1"><img src="images/me/egov.jpg" alt="Second slide" width="100%"></div></div>
     </div>
 
     <div class="carousel-item" id="fourpic">
       
-      <img src="images/me/win.jpg" alt="First slide" width="100%"> <div class="animated fadeIn carousel-caption-middle d-none d-md-block" style="background-color: rgba(0,0,0,0.5)">
+      <img src="images/me/win.jpg" alt="First slide" width="100%"> <div class="animated fadeIn carousel-caption-middle" style="background-color: rgba(0,0,0,0.5)">
    
-    <p style="font-size: 17px">And in God's glory, They bring home both a bacon!</p>
+    <p style="font-size: 17px">Luckily, he brought home two victory medals.</p>
   </div>
    
     </div>
 
     <div class="carousel-item" id="fivepic">
     
-      <img src="images/me/result.jpg" alt="First slide" width="100%"> <div class="animated fadeInDown carousel-caption-top d-none d-md-block" style="background-color: rgba(0,0,0,0.5)">
+      <img src="images/me/result.jpg" alt="First slide" width="100%"> <div class="animated fadeInDown carousel-caption-top" style="background-color: rgba(0,0,0,0.5)">
    
-    <p style="font-size: 17px">All thanks to God and his coaches, Hanz grasped his greatest achievements so far; being 1st runner up in Hackaton and the Champion in EGOV Competition.</p>
+    <p style="font-size: 17px">Hanz grasped his significant achievements; being 1st runner up in Hackaton and the Champion in EGOV Competition.</p>
   </div>
    
     </div>
@@ -395,17 +394,17 @@ Hanz Jericho V. Garabiles
 </div>
 
 <div id="parallaxprojectsgallery" class="parallaximg" >
-        <div class="overlay" style="padding: 20px">
+        <div class="overlay" style="padding: 100px 20px 100px 20px">
           
           <div class="container-fluid">
-<div class="row"><div class="col-12 project-title" align="center">Project Gallery</div></div>
+<div class="row"><div class="col-12 project-galtitle" align="center">Project Gallery</div></div>
 <div class="row"><div class="col-12" align="center" style="color: white">Showcasing some of his previous projects...</div></div><br>
 
 
 
 
           <div class="row">
-            <div class="col-lg-4"> <a href="#" class="gallery-box" data-target="#myModal1" data-toggle="modal">
+            <div class="col-lg-4 col-md-4"> <a href="#" class="gallery-box wow slideInUp"  data-target="#myModal1" data-toggle="modal">
                         <img src="images/projects/ISECO/home.png" class="borderedbox img-responsive" alt="Image 6">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
@@ -457,9 +456,9 @@ Hanz Jericho V. Garabiles
      
     
       
-            <div class="col-lg-4"><a href="#" class="gallery-box" id="myImg2" data-target="#myModal2" data-toggle="modal">
+            <div class="col-lg-4 col-md-4"><a href="#" class="gallery-box wow slideInUp" data-wow-delay="0.2s" id="myImg2" data-target="#myModal2" data-toggle="modal">
               <div class="borderedbox img-responsive" alt="Image 6" align="center" style="background-color: rgba(0,0,0,0.5)">
-                        <img src="images/projects/mobile/ilocosnorte.png" style="width: 50%">
+                        <img src="images/projects/mobile/ilocosnorte.PNG" style="width: 50%">
                       </div>
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
@@ -484,17 +483,17 @@ Hanz Jericho V. Garabiles
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div style=" max-height:100vh; height: 100%; max-width: 900px; width: 100%;background-color: black" align="center">
-      <img src="images/projects/mobile/ilocosnorte.png" alt="First slide" style="width: 50%" ></div>
+      <img src="images/projects/mobile/ilocosnorte.PNG" alt="First slide" style="width: 50%" ></div>
     </div>
     <div class="carousel-item">
        <div style=" max-height:100vh; height: 100%; max-width: 900px; width: 100%;background-color: black" align="center">
-      <img src="images/projects/mobile/inmap.png" alt="First slide" class="mobile-mod" style="width: 50%"></div> </div>
+      <img src="images/projects/mobile/inmap.PNG" alt="First slide" class="mobile-mod" style="width: 50%"></div> </div>
     <div class="carousel-item">
  <div style=" max-height:100vh; height: 100%; max-width: 900px; width: 100%;background-color: black" align="center">
-      <img src="images/projects/mobile/inmore.png" alt="First slide" class="mobile-mod" style="width: 50%"></div></div>
+      <img src="images/projects/mobile/inmore.PNG" alt="First slide" class="mobile-mod" style="width: 50%"></div></div>
     <div class="carousel-item">
       <div style=" max-height:100vh; height: 100%; max-width: 900px; width: 100%;background-color: black" align="center">
-      <img src="images/projects/mobile/otherplace.png" alt="First slide" class="mobile-mod" style="width: 50%"></div> </div>
+      <img src="images/projects/mobile/otherplace.PNG" alt="First slide" class="mobile-mod" style="width: 50%"></div> </div>
   </div>
   <a class="carousel-control-prev" href="#" role="button" data-slide="prev" onclick="$('#carouselModal2').carousel('prev'); return false;">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -512,8 +511,8 @@ Hanz Jericho V. Garabiles
       
     
     
-            <div class="col-lg-4"><a href="#" class="gallery-box" id="myImg3" data-target="#myModal3" data-toggle="modal">
-                        <img src="images/projects/eskill/home1.png" class="borderedbox img-responsive" alt="Image 6">
+            <div class="col-lg-4 col-md-4"><a href="#" class="gallery-box wow slideInUp" data-wow-delay="0.4s" id="myImg3" data-target="#myModal3" data-toggle="modal">
+                        <img src="images/projects/eskill/home1.PNG" class="borderedbox img-responsive" alt="Image 6">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -542,31 +541,31 @@ Hanz Jericho V. Garabiles
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/projects/eskill/home1.png" alt="First slide">
+      <img class="d-block w-100" src="images/projects/eskill/home1.PNG" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/home2.png" alt="Second slide">
+      <img class="d-block w-100" src="images/projects/eskill/home2.PNG" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/login.png" alt="Third slide">
+      <img class="d-block w-100" src="images/projects/eskill/login.PNG" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/admin.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/eskill/admin.PNG" alt="Fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/company dashboard.png" alt="Second slide">
+      <img class="d-block w-100" src="images/projects/eskill/company dashboard.PNG" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/applicant.png" alt="Third slide">
+      <img class="d-block w-100" src="images/projects/eskill/applicant.PNG" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/job applications.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/eskill/job applications.PNG" alt="Fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/search job.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/eskill/search job.PNG" alt="Fourth slide">
     </div>
         <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/eskill/company job post.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/eskill/company job post.PNG" alt="Fourth slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#" role="button" data-slide="prev" onclick="$('#carouselModal3').carousel('prev'); return false;">
@@ -587,8 +586,8 @@ Hanz Jericho V. Garabiles
   </div>
 <br>
 <div class="row">        
-            <div class="col-lg-4"><a href="#" class="gallery-box" id="myImg4" data-target="#myModal4" data-toggle="modal">
-                        <img src="images/projects/TISGM/Dashboard.png" class="borderedbox img-responsive" alt="Image 6">
+            <div class="col-lg-4 col-md-4"><a href="#" class="gallery-box wow slideInUp" data-wow-delay="0.6s" id="myImg4" data-target="#myModal4" data-toggle="modal">
+                        <img src="images/projects/TISGM/Dashboard.PNG" class="borderedbox img-responsive" alt="Image 6">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -613,16 +612,16 @@ Hanz Jericho V. Garabiles
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/projects/TISGM/Login.png" alt="First slide">
+      <img class="d-block w-100" src="images/projects/TISGM/login.PNG" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/TISGM/Dashboard.png" alt="Second slide">
+      <img class="d-block w-100" src="images/projects/TISGM/Dashboard.PNG" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/TISGM/Post.png" alt="Third slide">
+      <img class="d-block w-100" src="images/projects/TISGM/Post.PNG" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/TISGM/User Management.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/TISGM/User Management.PNG" alt="Fourth slide">
     </div>
     
      
@@ -647,8 +646,8 @@ Hanz Jericho V. Garabiles
     
           
           
-          <div class="col-lg-4"><a href="#" class="gallery-box" id="myImg5" data-target="#myModal5" data-toggle="modal">
-                        <img src="images/projects/BKSGFU/Admin Bookkeep.png" class="borderedbox img-responsive" alt="Image 6">
+          <div class="col-lg-4 col-md-4"><a href="#" class="gallery-box wow slideInUp" data-wow-delay="0.4s" id="myImg5" data-target="#myModal5" data-toggle="modal">
+                        <img src="images/projects/BKSGFU/Admin Bookkeep.PNG" class="borderedbox img-responsive" alt="Image 6">
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -675,26 +674,26 @@ Hanz Jericho V. Garabiles
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/projects/BKSGFU/Login.png" alt="First slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/Login.PNG" alt="First slide">
     </div>
     
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/BKSGFU/Register.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/Register.PNG" alt="Fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/BKSGFU/Admin Dashboard.png" alt="Second slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/Admin Dashboard.PNG" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/BKSGFU/Admin Bookkeep.png" alt="Third slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/Admin Bookkeep.PNG" alt="Third slide">
     </div>
  <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/BKSGFU/User Input.png" alt="Second slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/User Input.PNG" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/BKSGFU/User Bookkeep.png" alt="Third slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/User Bookkeep.PNG" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/BKSGFU/User Bookkeep Edit.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/BKSGFU/User Bookkeep Edit.PNG" alt="Fourth slide">
     </div>    
      
   </div>
@@ -714,8 +713,8 @@ Hanz Jericho V. Garabiles
        
           
           
-            <div class="col-lg-4"><a href="#" class="gallery-box" id="myImg6" data-target="#myModal6" data-toggle="modal">
-                        <img src="images/projects/Lemonhub/Capture.png" class="borderedbox img-responsive" alt="Image 6" >
+            <div class="col-lg-4 col-md-4"><a href="#" class="gallery-box wow slideInUp" data-wow-delay="0.2s" id="myImg6" data-target="#myModal6" data-toggle="modal">
+                        <img src="images/projects/Lemonhub/Capture.PNG" class="borderedbox img-responsive" alt="Image 6" >
                         <div class="gallery-box-caption">
                             <div class="gallery-box-content">
                                 <div>
@@ -740,19 +739,19 @@ Hanz Jericho V. Garabiles
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block w-100" src="images/projects/Lemonhub/Capture5.png" alt="First slide">
+      <img class="d-block w-100" src="images/projects/Lemonhub/Capture5.PNG" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/Lemonhub/Capture.png" alt="Second slide">
+      <img class="d-block w-100" src="images/projects/Lemonhub/Capture.PNG" alt="Second slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/Lemonhub/Capture2.png" alt="Third slide">
+      <img class="d-block w-100" src="images/projects/Lemonhub/Capture2.PNG" alt="Third slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/Lemonhub/Capture3.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/Lemonhub/Capture3.PNG" alt="Fourth slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/projects/Lemonhub/Capture4.png" alt="Fourth slide">
+      <img class="d-block w-100" src="images/projects/Lemonhub/Capture4.PNG" alt="Fourth slide">
     </div>
     
      
@@ -856,8 +855,9 @@ Hanz Jericho V. Garabiles
     
     <script src="js/bootstrap.min.js"></script>
      <script src="js/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+    <script src="js/jquery.color-animation.min.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js\isInViewport\lib\isInViewport.min.js"></script>
    
     <script src="function.js"></script>
 
