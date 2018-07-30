@@ -149,7 +149,7 @@ return false;
 
 
 $(window).resize(function(){
-    if($(this).width() <= 750 || id != "parallaxhome"){
+    if($(this).width() <= 751 || id != "parallaxhome"){
        $('.navbar').css("background-color", "rgba(0,0,0,0.7)");
        $(".navbar-nav").stop().animate({marginLeft: "37%"}, { duration: 500, queue: false });
      }else{
