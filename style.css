@@ -1,3 +1,7 @@
+body{
+	overflow-x: hidden;
+}
+
 
 @font-face {
     font-family: league-spartan;
@@ -74,7 +78,7 @@ height: 100%;
 #parallaxskills { 
     /* The image used */
 
-height: 900px;
+height: 100%;
     background-image: url("images/3.jpg");
 
 
@@ -928,7 +932,7 @@ width: 100%;
 .text-container{
 	
 	position: relative;
-	left: 1%;
+	left: 0%;
 	top: 10%;
 	z-index: 3;
 }
