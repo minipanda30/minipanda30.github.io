@@ -155,6 +155,7 @@ $(window).resize(function(){
       var widthmargin = ($('.navbar').width()/2)  - ($('.navbar-nav').width()/2);
 $(".navbar-nav").stop().animate({marginLeft: widthmargin}, { duration: 500, queue: false });
      }else{
+      $('.skill-scroll').find('.wow.animated').removeClass('animated');
        $(".navbar-nav").stop().animate({marginLeft: "50%"}, { duration: 500, queue: false });
        $('.navbar').css("background-color", "transparent");
      }
@@ -163,4 +164,5 @@ $(".navbar-nav").stop().animate({marginLeft: widthmargin}, { duration: 500, queu
 var scrollable = $('.skill-scroll');
 scrollable.on('scroll.wow', function(){
     scrollable.find('.wow:not(.animated):in-viewport').removeAttr('style').addClass('animated');
+
 });

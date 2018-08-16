@@ -151,6 +151,7 @@ height: 900px;
         margin-bottom: 20px;
         position: relative;
         color: black;
+        text-align: justify;
     }
 
         .timeline > li:before,
@@ -468,10 +469,11 @@ height: 900px;
 
 
 .carousel-extra{
+
 	text-indent: 40px;
 	text-align: justify;
 	color: white;
-	padding: 50px;
+	padding: 15% 50px;
 	background-color: rgba(0,0,0,0.5);
 }
 
@@ -511,11 +513,11 @@ height: 900px;
     margin: 1px 3px;
     height: 10px;
     max-width: 10px;
-    border: 1px solid #FFF;
+    border: 1px solid #aaa;
     background-color: transparent;
 }
 .carousel-indicators .active {
-    background-color: #fff;
+    background-color: #76bf5f;
     max-width: 12px;
     margin: 0 3px;
     height: 12px;
@@ -587,7 +589,7 @@ footer a:hover{
 .percent {
 	position: absolute;
 	
-	left: 45%;
+	left: 40%;
 	line-height: 200px;
     z-index: 1;
     font-size: 30px
@@ -684,11 +686,6 @@ text-align: justify;
   padding: 1px;
 }
 
-.card-pos{
-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-	position: relative;
-	bottom: 50px;
-}
 
 
 
@@ -737,10 +734,13 @@ width: 80%;
 
 .gallery-box {
     display: block;
+    height: 300px;
     position: relative;
     margin: 0 auto;
     max-width: 100%;
     overflow:hidden;
+    box-shadow: 0 5px 8px rgba(255, 255, 255, 0.175);
+    border: 5px solid rgba(255,255,255,0.5);
 	
 }
 
@@ -780,13 +780,14 @@ width: 80%;
 }
 
 .gallery-box img {
-	height: 300px;
-	width: 100%;
+	height: 160%;
+	width: 150%;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
 .center1{
-	 font-family: Cooper Black;
+	 font-family: Calibri;
+	 font-size: 20px;
 }
 
 
@@ -1175,6 +1176,41 @@ height: 100%;
   top: 20%;
   right: 54%
 
+}
+
+.carousel-extra{
+		padding: 20px 30px 50px 30px;
+}
+.carousel-caption{
+
+	font-size: 15px;
+	color: white;
+	padding: 20px;
+	background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    position: relative;
+}
+
+
+.carousel-caption-top{
+
+	   top: 0;
+    left: 0;
+    position: relative;
+    color: white;
+	padding: 40px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-caption-middle{
+
+	   top: 0;
+    left: 0;
+    position: relative;
+    color: white;
+	padding: 40px;
+	background-color: rgba(0,0,0,0.5);
 }
 
 
